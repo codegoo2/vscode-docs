@@ -1,5 +1,5 @@
 pr: none
-
+# how do 
 resources:
   repositories:
   - repository: self
@@ -18,12 +18,14 @@ resources:
     endpoint: Monaco
     name: microsoft/vscode-website-dist
     ref: $(Build.SourceBranchName)
+#  jobs
 jobs:
 - job:
   displayName: Build
   variables:
     skipComponentGovernanceDetection: true
   cancelTimeoutInMinutes: 1
+#   skipComponentGovernanceDetection
   pool:
     vmImage: macOS-latest
   steps:
