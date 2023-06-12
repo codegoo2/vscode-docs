@@ -1,4 +1,5 @@
 {
+  // Credential Scanner
   "tool": "Credential Scanner",
   "suppressions": [
     {
